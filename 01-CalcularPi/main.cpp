@@ -16,10 +16,10 @@ int main(){
         divisor = denominador(n);
         resultado += static_cast<long double>(4 * dividendo) / divisor;
         cout.precision(6); // Establecer la precisión en 6 decimales
-        cout << fixed << resultado << endl; // Mostrar resultado con 6 decimales
         n++;
     }while(resultado<3.141592 || resultado>=3.141593);
-
+    cout << fixed << resultado << endl; // Mostrar resultado con 6 decimales
+    cout << "Se llegó a los 6 primeros decimales en " << n << " iteraciones" << endl;
     return 0;
 }
 
