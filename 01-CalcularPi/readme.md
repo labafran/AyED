@@ -10,6 +10,10 @@
 
 **Usuario GitHub:** _@labafran_
 
+**Profesor:** _Eduardo Zúñiga_
+
+**Compilador:** _mingw64_
+
 -------------------------------------------------------------------------------------------
 **Consigna:**
 
